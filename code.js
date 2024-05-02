@@ -1,9 +1,19 @@
 function factorial(n) {
-    if(n === 0) return 1;
-    else return n * factorial(n - 1);
+    var final = 1;
+    if(n === 0) return final;
+    for(let i = 2; i <= n; i++){
+        final *= i;
+    }
+    return final;
 }
+//console.log(factorial(2));
 
 function e(n) {
-    if(n === 0) return 1;
-    else return 1.0 / factorial(n) + e(n - 1);
+    var final = 1;
+    if(n === 0) return final;
+    for(let i = 1; i <=n; i++){
+        final += 1/factorial(i)
+    }
+   return final;
 }
+//console.log(e(1000));

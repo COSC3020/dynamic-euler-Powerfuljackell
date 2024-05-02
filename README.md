@@ -17,4 +17,4 @@ but you need to go beyond that.
 
 ## Runtime Analysis
 
-What is the worst-case big $\Theta$ time complexity of your algorithm?
+What is the worst-case big $\Theta$ time complexity of your algorithm? The worst case complexity of this algorithm is $\Theta(n^2)$ as each value within e calls on factorial which has $\Theta(n)$.
